@@ -106,7 +106,7 @@
 </template>
 
 <script>
-import ArtworksApiService from '../services/artworks-api.service'
+import ArtworksApiService from '../artwork/connector/artworks-api.service'
 import FavoriteArtworksApiService from '../services/favorite-artworks-api.service'
 export default {
   name: "artwork-id",

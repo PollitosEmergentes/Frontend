@@ -111,7 +111,7 @@
 <script>
 // Services
 import ArtistApiService from '../connector/artists-api.service'
-import ArtworksApiService from '../../services/artworks-api.service'
+import ArtworksApiService from '../../artwork/connector/artworks-api.service'
 import EventsApiService from '../../services/events-api.service'
 import FollowersApiService from '../../services/followers-api.service'
 

@@ -42,7 +42,7 @@ const routes = [
   {
     path: '/artist/:artistId/artwork/:artworkId',
     name: 'Artwork',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Artwork.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../artwork/ui/Artwork.vue')
   },
   {
     path: '/hobbyist/profile',
@@ -82,7 +82,7 @@ const routes = [
   {
     path:'/home/artist/profile',
     name:'HomeArtist',
-    component:()=>import('../views/ArtistProfileEdit.vue')
+    component:()=>import('../artist/ui/ArtistProfileEdit.vue')
   }
 
 ]

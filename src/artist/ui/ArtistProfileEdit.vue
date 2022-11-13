@@ -298,13 +298,13 @@
 </template>
 
 <script>
-import SpecialtiesApiService from '../services/specialties-api.service'
-import ArtistsApiService from '../artist/connector/artists-api.service'
+import SpecialtiesApiService from '../../services/specialties-api.service'
+import ArtistsApiService from '../connector/artists-api.service'
 
-import ArtworkCard from "../components/artwork-card";
-import ArtistEventCard from "../components/artist-event-card";
-import ArtworksApiService from "../services/artworks-api.service";
-import EventsApiService from "../services/events-api.service";
+import ArtworkCard from "../../components/artwork-card";
+import ArtistEventCard from "../../components/artist-event-card";
+import ArtworksApiService from "../../artwork/connector/artworks-api.service";
+import EventsApiService from "../../services/events-api.service";
 
 export default {
   name: "ArtistProfile",
