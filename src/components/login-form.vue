@@ -55,7 +55,7 @@
 <script>
 //import UserApiService from '../services/users-api.service'
 import HobbyistsApiService from '../services/hobbyists-api.service'
-import ArtistsApiService from '../services/artists-api.service'
+import ArtistsApiService from '../artist/connector/artists-api.service'
 export default {
 
   name: "login-form",

@@ -66,7 +66,7 @@
 
 <script>
 // Services
-import User from '../models/user'
+import User from '../perustars/model/user'
 //Components
 import TermsAndConditions from "./terms-and-conditions";
 

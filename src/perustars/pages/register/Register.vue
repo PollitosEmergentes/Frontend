@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import RegisterForm from "../components/register-form";
+import RegisterForm from "../../../components/register-form";
 
 export default {
   name: "Register",

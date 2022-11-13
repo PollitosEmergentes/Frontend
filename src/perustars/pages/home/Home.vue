@@ -34,15 +34,15 @@
 <script>
 
 //Services
-import ArtistApiService from '../services/artists-api.service'
-import ArtworksApiService from '../services/artworks-api.service'
-import EventsApiService from '../services/events-api.service'
+import ArtistApiService from '../../../artist/connector/artists-api.service'
+import ArtworksApiService from '../../../services/artworks-api.service'
+import EventsApiService from '../../../services/events-api.service'
 
 //Components
-import SideBar from '../components/side-bar'
-import ArtistCard from '../components/artist-card'
-import ArtworkCard from '../components/artwork-card'
-import EventCard from '../components/event-card'
+import SideBar from '../../../components/side-bar'
+import ArtistCard from '../../../components/artist-card'
+import ArtworkCard from '../../../components/artwork-card'
+import EventCard from '../../../components/event-card'
 
 export default {
   name: 'Home',

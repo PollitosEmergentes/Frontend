@@ -53,7 +53,7 @@
 
 <script>
 //Services
-import ArtistApiService from '../services/artists-api.service'
+import ArtistApiService from '../artist/connector/artists-api.service'
 import ArtworksApiService from '../services/artworks-api.service'
 import EventsApiService from '../services/events-api.service'
 

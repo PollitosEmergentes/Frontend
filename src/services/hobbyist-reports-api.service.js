@@ -1,4 +1,4 @@
-import http from './http-common';
+import http from '../core/services/http-common';
 
 class HobbyistReportsApiService {
     getAll(hobbyistId) {

@@ -82,7 +82,7 @@
 </template>
 
 <script>
-import ArtistsApiService from '../services/artists-api.service'
+import ArtistsApiService from '../artist/connector/artists-api.service'
 import HobbyistsApiService from '../services/hobbyists-api.service'
 export default {
   name: "tool-bar",

@@ -299,7 +299,7 @@
 
 <script>
 import SpecialtiesApiService from '../services/specialties-api.service'
-import ArtistsApiService from '../services/artists-api.service'
+import ArtistsApiService from '../artist/connector/artists-api.service'
 
 import ArtworkCard from "../components/artwork-card";
 import ArtistEventCard from "../components/artist-event-card";

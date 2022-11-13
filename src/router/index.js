@@ -12,22 +12,22 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../perustars/pages/about/About.vue')
   },
   {
     path: '/home',
     name: 'Home',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../perustars/pages/home/Home.vue')
   },
   {
     path: '/login',
     name: 'Login',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Login.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../perustars/pages/login/Login.vue')
   },
   {
     path: '/register',
     name: 'Register',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Register.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../perustars/pages/register/Register.vue')
   },
   {
     path: '/terms&conditions',
@@ -52,7 +52,7 @@ const routes = [
   {
     path: '/artist/:artistId',
     name: 'ArtistProfile',
-    component: () => import(/* webpackChunkName: "about" */ '../views/ArtistProfile.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../artist/ui/ArtistProfile.vue')
   },
   {
     path: '/artwork/new',

@@ -110,15 +110,15 @@
 
 <script>
 // Services
-import ArtistApiService from '../services/artists-api.service'
-import ArtworksApiService from '../services/artworks-api.service'
-import EventsApiService from '../services/events-api.service'
-import FollowersApiService from '../services/followers-api.service'
+import ArtistApiService from '../connector/artists-api.service'
+import ArtworksApiService from '../../services/artworks-api.service'
+import EventsApiService from '../../services/events-api.service'
+import FollowersApiService from '../../services/followers-api.service'
 
 // Components
-import ArtworkCard from "../components/artwork-card";
-import ArtistEventCard from "../components/artist-event-card";
-import FollowsApiService from '../services/follows-api.service'
+import ArtworkCard from "../../components/artwork-card";
+import ArtistEventCard from "../../components/artist-event-card";
+import FollowsApiService from '../../services/follows-api.service'
 
 export default {
   name: "ArtistProfile",
