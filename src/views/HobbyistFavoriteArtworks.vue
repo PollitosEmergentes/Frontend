@@ -11,7 +11,7 @@
 
 <script>
 // Services
-import FavoriteArtworksApiService from '../services/favorite-artworks-api.service'
+import FavoriteArtworksApiService from '../favorite/connector/favorite-artworks-api.service'
 // Components
 import ArtworkCard from '../components/artwork-card'
 export default {

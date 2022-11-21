@@ -83,7 +83,7 @@
 
 <script>
 import ArtistsApiService from '../artist/connector/artists-api.service'
-import HobbyistsApiService from '../services/hobbyists-api.service'
+import HobbyistsApiService from '../hobbyist/connector/hobbyists-api.service'
 export default {
   name: "tool-bar",
   props:[

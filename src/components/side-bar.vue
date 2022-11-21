@@ -45,8 +45,8 @@
 
 <script>
 // Services
-import FollowsApiService from '../services/follows-api.service'
-import AssistancesApiService from '../services/event-assistances-api.service'
+import FollowsApiService from '../follower/connector/follows-api.service'
+import AssistancesApiService from '../event/connector/event-assistances-api.service'
 
 export default {
   name: "side-bar",

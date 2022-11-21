@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import SpecialtiesApiService from '../services/specialties-api.service'
+import SpecialtiesApiService from '../specialties/connector/specialties-api.service'
 import LoginDialog from '../components/login-dialog'
 
 export default {

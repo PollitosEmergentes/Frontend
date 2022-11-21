@@ -53,7 +53,7 @@
 
 <script>
 /*Aqui falta Axios*/
-import ArtworksApiService from '../services/artworks-api.service'
+import ArtworksApiService from '../artwork/connector/artworks-api.service'
 
 export default {
   name: "new-artwork",

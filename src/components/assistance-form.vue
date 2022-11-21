@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import EventApiService from '../services/events-api.service'
-import EventAssistancesApiService from '../services/event-assistances-api.service'
+import EventApiService from '../event/connector/events-api.service'
+import EventAssistancesApiService from '../event/connector/event-assistances-api.service'
 export default {
   name: "assistance-form",
   data(){

@@ -298,17 +298,18 @@
 </template>
 
 <script>
-import SpecialtiesApiService from '../services/specialties-api.service'
-import ArtistsApiService from '../artist/connector/artists-api.service'
 
-import ArtworkCard from "../components/artwork-card";
-import ArtistEventCard from "../components/artist-event-card";
-import ArtworksApiService from "../services/artworks-api.service";
-import EventsApiService from "../services/events-api.service";
+import SpecialtiesApiService from '../../specialties/connector/specialties-api.service.js'
+import ArtistsApiService from '../connector/artists-api.service.js'
+import ArtworkCard from "../../components/artwork-card.vue";
+import ArtistEventCard from "../../components/artist-event-card.vue";
+import ArtworksApiService from "../../artwork/connector/artworks-api.service.js";
+import EventsApiService from "../../event/connector/events-api.service.js";
 
 export default {
+
   name: "ArtistProfile",
-  components: {ArtistEventCard, ArtworkCard},
+  components: { ArtistEventCard, ArtworkCard },
   data() {
     return {
       informationDialog: false,
@@ -529,6 +530,5 @@ export default {
   top: 110%;
   background: linear-gradient(90deg, rgba(236, 187, 61, 1) 0%, rgba(223, 0, 0, 1) 100%);
 }
-
 
 </style>

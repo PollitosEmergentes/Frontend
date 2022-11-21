@@ -35,8 +35,8 @@
 
 //Services
 import ArtistApiService from '../../../artist/connector/artists-api.service'
-import ArtworksApiService from '../../../services/artworks-api.service'
-import EventsApiService from '../../../services/events-api.service'
+import ArtworksApiService from '../../../artwork/connector/artworks-api.service'
+import EventsApiService from '../../../event/connector/events-api.service'
 
 //Components
 import SideBar from '../../../components/side-bar'

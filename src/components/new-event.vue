@@ -70,7 +70,7 @@
 </template>
 
 <script>
-import EventsApiService from '../services/events-api.service'
+import EventsApiService from '../event/connector/events-api.service'
 
 export default {
 

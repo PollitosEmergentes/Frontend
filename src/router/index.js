@@ -12,22 +12,22 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../perustars/pages/about/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../app/pages/about/About.vue')
   },
   {
     path: '/home',
     name: 'Home',
-    component: () => import(/* webpackChunkName: "about" */ '../perustars/pages/home/Home.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../app/pages/home/Home.vue')
   },
   {
     path: '/login',
     name: 'Login',
-    component: () => import(/* webpackChunkName: "about" */ '../perustars/pages/login/Login.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../app/pages/login/Login.vue')
   },
   {
     path: '/register',
     name: 'Register',
-    component: () => import(/* webpackChunkName: "about" */ '../perustars/pages/register/Register.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../app/pages/register/Register.vue')
   },
   {
     path: '/terms&conditions',
@@ -37,12 +37,12 @@ const routes = [
   {
     path: '/artist/:artistId/event/:eventId',
     name: 'Event',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Event.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../event/ui/Event.vue')
   },
   {
     path: '/artist/:artistId/artwork/:artworkId',
     name: 'Artwork',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Artwork.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../artwork/ui/Artwork.vue')
   },
   {
     path: '/hobbyist/profile',
@@ -82,7 +82,7 @@ const routes = [
   {
     path:'/home/artist/profile',
     name:'HomeArtist',
-    component:()=>import('../views/ArtistProfileEdit.vue')
+    component:()=>import('../artist/ui/ArtistProfileEdit.vue')
   }
 
 ]

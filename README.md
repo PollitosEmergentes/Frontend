@@ -9,8 +9,6 @@ https://peru-stars.web.app/
 ```
 http://sebasgx-001-site1.itempurl.com/api
 ```
-
-
 ## Project setup
 ```
 npm install

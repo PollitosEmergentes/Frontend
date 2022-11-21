@@ -78,7 +78,7 @@
 
 <script>
 // Services
-import SpecialtiesApiService from '../services/specialties-api.service'
+import SpecialtiesApiService from '../specialties/connector/specialties-api.service'
 //Components
 import SpecialtyCard from '../components/specialty-card'
 

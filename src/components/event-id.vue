@@ -69,8 +69,8 @@
 </template>
 
 <script>
-import EventsApiService from '../services/events-api.service'
-import EventAssistancesApiService from '../services/event-assistances-api.service'
+import EventsApiService from '../event/connector/events-api.service'
+import EventAssistancesApiService from '../event/connector/event-assistances-api.service'
 export default {
   name: "event-id",
   data() {
