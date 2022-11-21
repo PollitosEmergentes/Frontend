@@ -58,9 +58,9 @@ import ArtworksApiService from '../artwork/connector/artworks-api.service'
 import EventsApiService from '../event/connector/events-api.service'
 
 //Components
-import ArtworkCard from "./artwork-card";
+import ArtworkCard from "../artwork/ui/artwork-card";
 import EventCard from "./event-card"
-import ArtistCard from "./artist-card"
+import ArtistCard from "../artist/ui/artist-card"
 
 export default {
   name: "home-preview",
